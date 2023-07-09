@@ -1,21 +1,21 @@
 # Installation
-    1.Clone the repository
-     ```
+1. Clone the repository
+    ```
     git clone https://github.com/MusheAbdulHakim/Ci4_build-your-first-app-docs-tutorial.git ci-news
     ```
-    2. Go into the project directory
+2. Go into the project directory
     ```
     cd ci-news
     ```
-    3. Install the composer dependencies
+3. Install the composer dependencies
     ```
     composer install
     ```
-    4. Copy and rename the env file to '.env'
+4. Copy and rename the env file to '.env'
     ```
     cp env .env
     ```
-    5. Set your database credentials and import the sql file inside **Database backup** directory
+5. Set your database credentials and import the sql file inside **Database backup** directory
     ```
     database.default.hostname = localhost
     database.default.database = ci4_news
@@ -25,7 +25,7 @@
     database.default.DBPrefix =
     database.default.port = 3306
     ```
-    6. 
+6. Start the development server
     ```
     php spark serve
     ```
