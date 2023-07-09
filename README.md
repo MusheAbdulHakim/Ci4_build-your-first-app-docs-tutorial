@@ -1,4 +1,34 @@
 # Installation
+    1.Clone the repository
+     ```
+    git clone https://github.com/MusheAbdulHakim/Ci4_build-your-first-app-docs-tutorial.git ci-news
+    ```
+    2. Go into the project directory
+    ```
+    cd ci-news
+    ```
+    3. Install the composer dependencies
+    ```
+    composer install
+    ```
+    4. Copy and rename the env file to '.env'
+    ```
+    cp env .env
+    ```
+    5. Set your database credentials and import the sql file inside **Database backup** directory
+    ```
+    database.default.hostname = localhost
+    database.default.database = ci4_news
+    database.default.username = root
+    database.default.password = 
+    database.default.DBDriver = MySQLi
+    database.default.DBPrefix =
+    database.default.port = 3306
+    ```
+    6. 
+    ```
+    php spark serve
+    ```
 
 # CodeIgniter 4 Application Starter
 
